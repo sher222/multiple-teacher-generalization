@@ -1,0 +1,3 @@
+[submodule "train/direct-preference-optimization"]
+	path = train/direct-preference-optimization
+	url = https://github.com/eric-mitchell/direct-preference-optimization
