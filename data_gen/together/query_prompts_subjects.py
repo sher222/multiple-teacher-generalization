@@ -8,27 +8,25 @@ from together import Together
 def chat_completion(subjects, questions):
     client = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
     together_model_correct = "mistralai/Mixtral-8x22B-Instruct-v0.1"
-    together_model_wrong = "mistralai/Mixtral-7B-Instruct-v0.3"
+    together_model_wrong = "Qwen/Qwen1.5-1.8B-Chat"
 
     possible_ans = ["A", "B", "C", "D"]
 
     examples = {subject: [] for subject in subjects}
     for question in tqdm(questions):
-        example = {"prompt": question["question"], "wrong_response": []}
+        example = {"prompt": question["question"]}
         response = client.chat.completions.create(
             model=together_model_correct,
-            messages=[{"role": "user", "content": question["correct_prompt"]["prompt"]}],
+            messages=[{"role": "user", "content": question["prompt"]}],
         )   
-        answer = f"{question["correct_prompt"]["letter"]}. {response.choices[0].message.content}"
-        example["correct_response"] = answer
-        # question["correct_response"] = f"{question['correct_prompt']['letter']}. {responses[i]}"
-        for wrong_prompt in question["wrong_prompts"]:
-            response = client.chat.completions.create(
-                model=together_model_wrong,
-                messages=[{"role": "user", "content": wrong_prompt["prompt"]}],
-            )
-            answer = f"{wrong_prompt["letter"]}. {response.choices[0].message.content}"
-            example["wrong_response"].append(answer)
+        answer = f"{question["answer"]}. {response.choices[0].message.content}"
+        example["preferred_response"] = answer
+        response = client.chat.completions.create(
+            model=together_model_wrong,
+            messages=[{"role": "user", "content": question["wrong_prompt"]}],
+        )
+        answer = f"{response.choices[0].message.content}"
+        example["unpreferred_response"] = answer
         examples[question["subject"]].append(example)
     return examples
 

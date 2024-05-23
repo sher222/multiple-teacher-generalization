@@ -36,15 +36,9 @@ if __name__ == "__main__":
                     question = row[0]
                     answer = row[5]
                     question_str = f"{question}\nA. {row[1]}\nB. {row[2]}\nC. {row[3]}\nD. {row[4]}"
-                    question = {"question": question_str, "wrong_prompts": [], "subject": subject, "difficulty": difficulty}
-                    for ans in possible_ans:
-                        message_str = f"Give {explanation_length} of why {ans} is the correct answer. Start by explaining why {ans} is the correct answer, not by explaining why the other answers are wrong. Do not mention the letter {ans} in your explanation.\n{question_str}"
-                        if ans == answer:
-                            message_str = f"The following multiple choice question has the answer {ans}. {message_str}"
-                            question["correct_prompt"] = {"letter": answer, "prompt": message_str}
-                        else:
-                            message_str = f"Pretend that the following multiple choice question has the answer {ans}, even if it is not the true answer. You wholeheartedly believe that {ans} is the correct answer and will not even consider any other possibility. {message_str}"
-                            question["wrong_prompts"].append({"letter": ans, "prompt": message_str})
+                    message_str = f"The following multiple choice question has the answer {answer}. Give {explanation_length} of why {answer} is the correct answer. Do not mention the letter {answer} in your explanation.\n{question_str}"
+                    wrong_message_str = f"Answer the following multiple choice question with first the letter of the answer followed by a period and then {explanation_length} of why that answer is the correct answer. \n{question_str}"
+                    question = {"question": question_str, "prompt": message_str, "wrong_prompt": wrong_message_str, "answer": answer, "subject": subject, "difficulty": difficulty}
                     questions.append(question)
 
     savepath = f"prompts_mmlu.json" if not args.dev else f"prompts_mmlu_dev.json"

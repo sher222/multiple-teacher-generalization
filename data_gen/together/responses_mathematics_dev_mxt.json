@@ -1,0 +1,42 @@
+[
+    {
+        "prompt": "Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?\nA. ST = 0\nB. ST = T\nC. ST = TS\nD. ST - TS is the identity map of V onto itself.",
+        "response": "D. None"
+    },
+    {
+        "prompt": "A tank initially contains a salt solution of 3 grams of salt dissolved in 100 liters of water. A salt solution containing 0.02 grams of salt per liter of water is sprayed into the tank at a rate of 4 liters per minute. The sprayed solution is continually mixed with the salt solution in the tank, and the mixture flows out of the tank at a rate of 4 liters per minute. If the mixing is instantaneous, how many grams of salt are in the tank after 100 minutes have elapsed?\nA. 2\nB. 2 - e^-2\nC. 2 + e^-2\nD. 2 + e^-4",
+        "response": "D. None"
+    },
+    {
+        "prompt": "Let A be a real 2x2 matrix. Which of the following statements must be true?\r\nI. All of the entries of A^2 are nonnegative.\r\nII. The determinant of A^2 is nonnegative.\r\nIII. If A has two distinct eigenvalues, then A^2 has two distinct eigenvalues.\nA. I only\nB. II only\nC. III only\nD. II and III only",
+        "response": "B. None"
+    },
+    {
+        "prompt": "Suppose that f(1 + x) = f(x) for all real x. If f is a polynomial and f(5) = 11, then f(15/2)\nA. -11\nB. 0\nC. 11\nD. 33/2",
+        "response": "C. 1. 1\n 2. 1\n 3. 1\n 4. 1\n 5. 1\n 6. 1\n 7. 1\n 8. 1\n 9. 1\n10. 1\n11. 1\n12. 1\n13. 1\n14. 1\n15. 1\n16. 1\n17. 1\n18. 1\n19. 1\n20. 1\n21. 1\n22. 1\n23. 1\n24. 1\n25. 1\n26. 1\n27. 1\n28. 1\n29. 1\n30. 1\n31. 1\n32. 1\n33. 1\n34. 1\n35. 1\n36. 1\n37. 1\n38. 1\n39. 1\n40. 1\n41. 1\n42. 1\n43. 1\n44. 1\n45. 1\n46. 1\n47. 1\n48. 1\n49. 1\n50. 1\n51. 1\n52. 1\n53. 1\n54. 1\n55. 1\n56. 1\n57. 1\n58. 1\n59. 1\n60. 1\n61. 1\n62. 1\n63. 1\n64. 1\n65. 1\n66. 1\n67. 1\n68. 1\n69. 1\n70. 1\n71. 1\n72. 1\n73. 1\n74. 1\n75. 1\n76. 1\n77. 1\n78. 1\n79. 1\n80. 1\n81. 1\n82. 1\n83. 1\n84. 1\n85. 1\n86. 1\n87. 1\n88. 1\n89. 1\n90. 1\n91. 1\n92. 1\n93. 1\n94. 1\n95. 1\n96. 1\n97. 1\n98. 1\n99. 1\n100"
+    },
+    {
+        "prompt": "Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \\in A}?\nA. -5\nB. -4\nC. -3\nD. -2",
+        "response": "B. None"
+    },
+    {
+        "prompt": "Joe was in charge of lights for a dance. The red light blinks every two seconds, the yellow light every three seconds, and the blue light every five seconds. If we include the very beginning and very end of the dance, how many times during a seven minute dance will all the lights come on at the same time? (Assume that all three lights blink simultaneously at the very beginning of the dance.)\nA. 3\nB. 15\nC. 6\nD. 5",
+        "response": "B. <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>         <br>"
+    },
+    {
+        "prompt": "Five thousand dollars compounded annually at an $x\\%$ interest rate takes six years to double. At the same interest rate, how many years will it take $\\$300$ to grow to $\\$9600$?\nA. 12\nB. 1\nC. 30\nD. 5",
+        "response": "C. + 3[5[3[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5[5"
+    },
+    {
+        "prompt": "The variable $x$ varies directly as the square of $y$, and $y$ varies directly as the cube of $z$. If $x$ equals $-16$ when $z$ equals 2, what is the value of $x$ when $z$ equals $\\frac{1}{2}$?\nA. -1\nB. 16\nC. -\\frac{1}{256}\nD. \\frac{1}{16}",
+        "response": "C. ### English\n\nh\n\n- Hello\n\n### French\n\nh\n\n- Bonjour\n\n### Spanish\n\nh\n\n- Hola\n\n### German\n\nh\n\n- Hallo\n\n### Italian\n\nh\n\n- Ciao\n\n### Portuguese\n\nh\n\n- Ol\u00e1\n\n### Dutch\n\nh\n\n- Hallo\n\n### Russian\n\n\u0445\n\n- \u041f\u0440\u0438\u0432\u0435\u0442\n\n### Japanese\n\nh\n\n- \u3053\u3093\u306b\u3061\u306f\n\n### Chinese\n\nh\n\n- \u4f60\u597d\n\n### Korean\n\nh\n\n- \uc548\ub155\ud558\uc138\uc694\n\n### Arabic\n\nh\n\n- \u0645\u0631\u062d\u0628\u0627\n\n### Indonesian\n\nh\n\n- Halo\n\n### Hebrew\n\nh\n\n- \u05e9\u05dc\u05d5\u05dd\n\n### Swedish\n\nh\n\n- Hej\n\n### Polish\n\nh\n\n- Cze\u015b\u0107\n\n### Turkish\n\nh\n\n- Merhaba\n\n### Vietnamese\n\nh\n\n- Xin ch\u00e0o\n\n### Urdu\n\nh\n\n- Salam\n\n### Thai\n\nh\n\n- \u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35\n\n### Hindi\n\nh\n\n- \u0928\u092e\u0938\u094d\u0924\u0947\n\n### Bengali\n\nh\n\n- \u09b9\u09cd\u09af\u09bc\u09b2\u09cb\n\n### Punjabi\n\nh\n\n- \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd### Gujarati\n\nh\n\n- \u0ab9\u0ab2 \u0ab9\u0ab5\n\n### Marathi\n\nh\n\n- \u0928\u092e\u0938\u094d\u0915\u093e\u0930\n\n### Telugu\n\nh\n\n- \u0c39\u0c2f \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd### Tamil\n\nh\n\n- \u0bb5\u0ba3\u0b95\u0bcd\u0b95\u0bae\u0bcd\n\n### Malayalam\n\nh\n\n- \u0d39\u0d32 \u0d39\u0d35\n\n### Kannada\n\nh\n\n- \u0ca8\u0cae\u0cb8\u0ccd\u0c95\u0cbe\u0cb0\n\n### Urdu\n\nh\n\n- \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd### Pashto\n\nh\n\n- \u067e\u0647 \u06ab\u0647\n\n### Sindhi\n\nh\n\n- \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd### Romanian\n\nh\n\n- Buna\n\n### Odia\n\nh\n\n- \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd### Assamese\n\nh"
+    },
+    {
+        "prompt": "Simplify and write the result with a rational denominator: $$\\sqrt{\\sqrt[3]{\\sqrt{\\frac{1}{729}}}}$$\nA. \\frac{3\\sqrt{3}}{3}\nB. \\frac{1}{3}\nC. \\sqrt{3}\nD. \\frac{\\sqrt{3}}{3}",
+        "response": "D. None"
+    },
+    {
+        "prompt": "Ten students take a biology test and receive the following scores: 45, 55, 50, 70, 65, 80, 40, 90, 70, 85. What is the mean of the students\u2019 test scores?\nA. 55\nB. 60\nC. 62\nD. 65",
+        "response": "D. None"
+    }
+]
