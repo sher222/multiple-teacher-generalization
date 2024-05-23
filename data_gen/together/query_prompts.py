@@ -11,7 +11,7 @@ def chat_completion_short(messages):
     return examples
 
 def chat_completion(messages):
-    client = Together(api_key="2713b3ba1312fb107ffa5db2e946eb43212a27967cd7503924f97be148a9e42a")
+    client = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
     together_model = "mistralai/Mixtral-8x22B-Instruct-v0.1"
 
     examples = []
