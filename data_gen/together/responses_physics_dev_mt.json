@@ -1,0 +1,92 @@
+[
+    {
+        "prompt": "A refracting telescope consists of two converging lenses separated by 100 cm. The eye-piece lens has a focal length of 20 cm. The angular magnification of the telescope is\nA. 4\nB. 5\nC. 6\nD. 20",
+        "wrong_response": [
+            "B. None",
+            "C. </pre>",
+            "D. None"
+        ],
+        "correct_response": "A. 0"
+    },
+    {
+        "prompt": "For which of the following thermodynamic processes is the increase in the internal energy of an ideal gas equal to the heat added to the gas?\nA. Constant temperature\nB. Constant volume\nC. Constant pressure\nD. Adiabatic",
+        "wrong_response": [
+            "A. ",
+            "C. ",
+            "D. None"
+        ],
+        "correct_response": "B. None"
+    },
+    {
+        "prompt": "One end of a Nichrome wire of length 2L and cross-sectional area A is attached to an end of another Nichrome wire of length L and cross- sectional area 2A. If the free end of the longer wire is at an electric potential of 8.0 volts, and the free end of the shorter wire is at an electric potential of 1.0 volt, the potential at the junction of the two wires is most nearly equal to\nA. 2.4 V\nB. 3.3 V\nC. 4.5 V\nD. 5.7 V",
+        "wrong_response": [
+            "B. None",
+            "C. None",
+            "D. None"
+        ],
+        "correct_response": "A. None"
+    },
+    {
+        "prompt": "A refracting telescope consists of two converging lenses separated by 100 cm. The eye-piece lens has a focal length of 20 cm. The angular magnification of the telescope is\nA. 4\nB. 5\nC. 6\nD. 20",
+        "wrong_response": [
+            "B. None",
+            "C. None",
+            "D. None"
+        ],
+        "correct_response": "A. None"
+    },
+    {
+        "prompt": "The muon decays with a characteristic lifetime of about 10^-6 second into an electron, a muon neutrino, and an electron antineutrino. The muon is forbidden from decaying into an electron and just a single neutrino by the law of conservation of\nA. charge\nB. mass\nC. energy and momentum\nD. lepton number",
+        "wrong_response": [
+            "A. None",
+            "B. ",
+            "C. None"
+        ],
+        "correct_response": "D. "
+    },
+    {
+        "prompt": "Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\nA. I and II only\nB. I and III only\nC. II and III only\nD. III only",
+        "wrong_response": [
+            "A. None",
+            "B. None",
+            "C. None"
+        ],
+        "correct_response": "D. "
+    },
+    {
+        "prompt": "A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\nA. The pressure is at a node, but the particle displacement is at an antinode.\nB. The pressure is at an antinode, but the particle displacement is at a node.\nC. The pressure and the particle displacement are both at nodes.\nD. The pressure and the particle displacement are both at antinodes.",
+        "wrong_response": [
+            "A. None",
+            "C. None",
+            "D. None"
+        ],
+        "correct_response": "B. None"
+    },
+    {
+        "prompt": "A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\nA. 2:00 AM\nB. 6:00 AM\nC. 12:00 AM\nD. 24 A",
+        "wrong_response": [
+            "A. None",
+            "B. None",
+            "C. None"
+        ],
+        "correct_response": "D. "
+    },
+    {
+        "prompt": "A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\nA. 10 W\nB. 30 W\nC. 60 W\nD. 240 W",
+        "wrong_response": [
+            "A. ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,                   ,",
+            "B. None",
+            "C. None"
+        ],
+        "correct_response": "D. None"
+    },
+    {
+        "prompt": "A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\nA. 3.5 J\nB. 6.0 J\nC. 22.5 J\nD. 40 J",
+        "wrong_response": [
+            "A. None",
+            "C. ",
+            "D. "
+        ],
+        "correct_response": "B. "
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "prompt": "Which of the following represents an accurate statement concerning arthropods?\nA. They possess an exoskeleton composed primarily of peptidoglycan.\nB. They possess an open circulatory system with a dorsal heart.\nC. They are members of a biologically unsuccessful phylum incapable of exploiting diverse habitats and nutrition sources.\nD. They lack paired, jointed appendages.",
+        "wrong_response": [
+            "A. None",
+            "C. [   ]\n\n [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n- [  ]\n-",
+            "D. [   ]"
+        ],
+        "correct_response": "B. [   ]"
+    },
+    {
+        "prompt": "In a given population, 1 out of every 400 people has a cancer caused by a completely recessive allele, b. Assuming the population is in Hardy-Weinberg equilibrium, which of the following is the expected proportion of individuals who carry the b allele but are not expected to develop the cancer?\nA. 1/400\nB. 19/400\nC. 20/400\nD. 38/400",
+        "wrong_response": [
+            "A. 0",
+            "B. None",
+            "C. </sub>"
+        ],
+        "correct_response": "D. None"
+    },
+    {
+        "prompt": "The presence of homologous structures in two different organisms, such as the humerus in the front limb of a human and a bird, indicates that\nA. the human and bird are polyphyletic species\nB. a human's and bird's evolution is convergent\nC. the human and bird belong to a clade\nD. the human and bird developed by analogy",
+        "wrong_response": [
+            "A. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |",
+            "B. None",
+            "D. None"
+        ],
+        "correct_response": "C. None"
+    },
+    {
+        "prompt": "According to the pressure-flow model of movement of phloem contents, photosynthate movement from source to sink is driven by\nA. an ATP-dependent pressure-flow pump\nB. a water-pressure potential gradient\nC. transpiration\nD. apoplastic diffusion",
+        "wrong_response": [
+            "A. None",
+            "C. None",
+            "D. "
+        ],
+        "correct_response": "B. "
+    },
+    {
+        "prompt": "Which of the following contain DNA sequences required for the segregation of chromosomes in mitosis and meiosis?\nA. Telomeres\nB. Centromeres\nC. Nucleosomes\nD. Spliceosomes",
+        "wrong_response": [
+            "A. ",
+            "C. ",
+            "D. None"
+        ],
+        "correct_response": "B. "
+    },
+    {
+        "prompt": "Which of the following is not a way to form recombinant DNA?\nA. Translation\nB. Conjugation\nC. Specialized transduction\nD. Transformation",
+        "wrong_response": [
+            "B. ",
+            "C. ",
+            "D. None"
+        ],
+        "correct_response": "A. "
+    },
+    {
+        "prompt": "A mutation in a bacterial enzyme changed a previously polar amino acid into a nonpolar amino acid. This amino acid was located at a site distant from the enzyme\u2019s active site. How might this mutation alter the enzyme\u2019s substrate specificity?\nA. By changing the enzyme\u2019s pH optimum\nB. By changing the enzyme\u2019s location in the cell\nC. By changing the shape of the protein\nD. An amino acid change away from the active site cannot alter the enzyme\u2019s substrate specificity.",
+        "wrong_response": [
+            "A. None",
+            "B. None",
+            "D. None"
+        ],
+        "correct_response": "C. None"
+    },
+    {
+        "prompt": "In animal cells, which of the following represents the most likely pathway that a secretory protein takes as it is synthesized in a cell?\nA. Plasma membrane\u2013Golgi apparatus\u2013ribosome\u2013secretory vesicle\u2013rough ER\nB. Ribosome\u2013Golgi apparatus\u2013rough ER\u2013secretory vesicle\u2013plasma membrane\nC. Plasma membrane\u2013Golgi apparatus\u2013ribosome\u2013secretory vesicle\u2013rough ER\nD. Ribosome\u2013rough ER\u2013Golgi apparatus\u2013secretory vesicle\u2013plasma membrane",
+        "wrong_response": [
+            "A. None",
+            "B. \u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013\t\u2013",
+            "C. "
+        ],
+        "correct_response": "D. [   ] h\to\tl\tp\te\tc\tw\ti\tn\tg\tt\tu\tt\ts\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt\tt"
+    },
+    {
+        "prompt": "Which of the following is not known to be involved in the control of cell division?\nA. Cyclins\nB. Protein kinases\nC. Checkpoints\nD. Fibroblast cells",
+        "wrong_response": [
+            "A. ",
+            "B. None",
+            "C. "
+        ],
+        "correct_response": "D. "
+    },
+    {
+        "prompt": "Homologous structures are often cited as evidence for the process of natural selection. All of the following are examples of homologous structures EXCEPT\nA. the wings of a bird and the wings of a bat\nB. the flippers of a whale and the arms of a man\nC. the pectoral fins of a porpoise and the flippers of a seal\nD. the forelegs of an insect and the forelimbs of a dog",
+        "wrong_response": [
+            "A. None",
+            "B. ",
+            "C. None"
+        ],
+        "correct_response": "D. None"
+    }
+]

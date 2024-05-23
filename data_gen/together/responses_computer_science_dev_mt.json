@@ -1,0 +1,92 @@
+[
+    {
+        "prompt": "Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?\nA. a*(c + d)+ b(c + d)\nB. a*(c + d)* + b(c + d)*\nC. a*(c + d)+ b*(c + d)\nD. (a + b)*c +(a + b)*d",
+        "wrong_response": [
+            "A. => t\n\n\n\n 1. a\n 2. b\n 3. c\n 4. d\n 5. e\n 6. f\n 7. g\n 8. h\n 9. i\n10. j\n11. k\n12. l\n13. m\n14. n\n15. o\n16. p\n17. q\n18. r\n19. s\n20. t\n21. u\n22. v\n23. w\n24. x\n25. y\n26. z\n27. b\n28. c\n29. d\n30. e\n31. f\n32. g\n33. h\n34. i\n35. j\n36. k\n37. l\n38. m\n39. n\n40. o\n41. p\n42. q\n43. r\n44. s\n45. t\n46. u\n47. v\n48. w\n49. x\n50. y\n51. z\n52. b\n53. c\n54. d\n55. e\n56. f\n57. g\n58. h\n59. i\n60. j\n61. k\n62. l\n63. m\n64. n\n65. o\n66. p\n67. q\n68. r\n69. s\n70. t\n71. u\n72. v\n73. w\n74. x\n75. y\n76. z\n77. b\n78. c\n79. d\n80. e\n81. f\n82. g\n83. h\n84. i\n85. j\n86. k\n87. l\n88. m\n89. n\n90. o\n91. p\n92. q\n93. r\n94. s\n95. t\n96. u\n97. v\n98. w\n99. x\n100. y\n101. z\n102. b\n103. c\n104. d\n105. e\n106. f\n107. g\n108. h\n109. i\n110. j\n111. k\n112. l\n113. m\n114. n\n115. o\n116",
+            "B. None",
+            "C. None"
+        ],
+        "correct_response": "D. e--> e\n\n o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o--> o\n\n   o"
+    },
+    {
+        "prompt": "A certain pipelined RISC machine has 8 general-purpose registers R0, R1, . . . , R7 and supports the following operations.\nADD Rs1, Rs2, Rd Add Rs1 to Rs2 and put the sum in Rd\nMUL Rs1, Rs2, Rd Multiply Rs1 by Rs2 and put the product in Rd\nAn operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB + ABC + BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB + ABC + BC?\nA. 5\nB. 6\nC. 7\nD. 8",
+        "wrong_response": [
+            "A. None",
+            "C. None",
+            "D. <!DOCTYPE html PUBLIC \"-//W3CJ5IjShoM\" height=\"30\" width=\"425\"><!DOCTYPE html PUBLIC \"-//W3CJ5IbShoM\" height=\"30\" width=\"425\"><!DOCTYPE html PUBLIC \"-//W3CJ5IbShoM\" height=\"30\" width=\"425\">"
+        ],
+        "correct_response": "B. "
+    },
+    {
+        "prompt": "The Singleton design pattern is used to guarantee that only a single instance of a class may be instantiated. Which of the following is (are) true of this design pattern?\nI. The Singleton class has a static factory method to provide its instance.\nII. The Singleton class can be a subclass of another class.\nIII. The Singleton class has a private constructor.\nA. I only\nB. II only\nC. III only\nD. I, II, and III",
+        "wrong_response": [
+            "A. None",
+            "B. None",
+            "C. None"
+        ],
+        "correct_response": "D. "
+    },
+    {
+        "prompt": "A compiler generates code for the following assignment statement.\nG := (A + B) * C - (D + E) * F\nThe target machine has a single accumulator and a single-address instruction set consisting of instructions load, store, add, subtract, and multiply. For the arithmetic operations, the left operand is taken from the accumulator and the result appears in the accumulator. The smallest possible number of instructions in the resulting code is\nA. 5\nB. 6\nC. 7\nD. 9",
+        "wrong_response": [
+            "A. None",
+            "B. None",
+            "C. None"
+        ],
+        "correct_response": "D. None"
+    },
+    {
+        "prompt": "Consider a computer design in which multiple processors, each with a private cache memory, share global memory using a single bus. This bus is the critical system resource. Each processor can execute one instruction every 500 nanoseconds as long as memory references are satisfied by its local cache. When a cache miss occurs, the processor is delayed for an additional 2,000 nanoseconds. During half of this additional delay, the bus is dedicated to serving the cache miss. During the other half, the processor cannot continue, but the bus is free to service requests from other processors. On average, each instruction requires 2 memory references. On average, cache misses occur on 1 percent of references. What proportion of the capacity of the bus would a single processor consume, ignoring delays due to competition from other processors?\nA. 1/50\nB. 1/27\nC. 1/25\nD. 2/27",
+        "wrong_response": [
+            "A. None",
+            "C. None",
+            "D. <!--"
+        ],
+        "correct_response": "B. [![enter image description here](https://i.imgur.com/Zb34gD.png)\n\n 1. $A$ is\n 2. $B$\n 3. $C$\n 4. $D$\n 5. $E$\n 6. $F$\n 7. $G$\n 8. $H$\n 9. $I$\n 10. $J$\n 11. $K$\n 12. $L$\n 13. $M$\n 14. $N$\n 15. $O$\n 16. $P$\n 17. $Q$\n 18. $R$\n 19. $S$\n 20. $T$\n 21. $U$\n 22. $V$\n 23. $W$\n 24. $X$\n 25. $Y$\n 26. $Z$\n 27. $a$\n 28. $b$\n 29. $c$\n 30. $d$\n 31. $e$\n 32. $f$\n 33. $g$\n 34. $h$\n 35. $i$\n 36. $j$\n 37. $k$\n 38. $l$\n 39. $m$\n 40. $n$\n 41. $o$\n 42. $p$\n 43. $q$\n 44. $r$\n 45. $s$\n 46. $t$\n 47. $u$\n 48. $v$\n 49. $w$\n 50. $x$\n 51. $y$\n 52. $z$\n 53. $A$\n 54. $B$\n 55. $C$\n 56. $D$\n 57. $E$\n 58. $F$\n 59. $G$\n 60. $H$\n 61. $I$\n 62. $J$\n 63. $K$\n 64. $L$\n 65. $M$\n 66. $N$\n 67. $O$\n 68. $P$\n 69. $Q$\n 70. $R$\n 71. $S$\n 72. $T$\n 73. $"
+    },
+    {
+        "prompt": "Which of the following is an example of the use of a device on the Internet of Things (IoT) ?\nA. A car alerts a driver that it is about to hit an object.\nB. A hiker uses a G P S watch to keep track of her position.\nC. A refrigerator orders milk from an online delivery service when the milk in the refrigerator is almost gone.\nD. A runner uses a watch with optical sensors to monitor his heart rate.",
+        "wrong_response": [
+            "A. None",
+            "B. [   ](https://i.imgur.com/j22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222",
+            "D. [   ]]"
+        ],
+        "correct_response": "C. None"
+    },
+    {
+        "prompt": "Many Web browsers allow users to open anonymous windows. During a browsing session in an anonymous window, the browser does not record a browsing history or a list of downloaded files. When the anonymous window is exited, cookies created during the session are deleted. Which of the following statements about browsing sessions in an anonymous window is true?\nA. The activities of a user browsing in an anonymous window will not be visible to people who monitor the user's network, such as the system administrator.\nB. Items placed in a Web store's shopping cart for future purchase during the anonymous browsing session will not be saved on the user's computer.\nC. A user will not be able to log in to e-mail or social media accounts during the anonymous browsing session.\nD. A user browsing in an anonymous window will be protected from viruses launched from any web sites visited or files downloaded.",
+        "wrong_response": [
+            "A. None",
+            "C. None",
+            "D. None"
+        ],
+        "correct_response": "B. None"
+    },
+    {
+        "prompt": "What is the output of \"abc\"[::-1] in Python 3?\nA. Error\nB. abc\nC. cba\nD. c",
+        "wrong_response": [
+            "A. None",
+            "B. None",
+            "D. None"
+        ],
+        "correct_response": "C. "
+    },
+    {
+        "prompt": "In the program below, the initial value of x is 5 and the initial value of y is 10.\n IF (X < O)\n {\n DISPLAY (\"Foxtrot\")\n }\n ELSE\n {\n IF (X > y)\n {\n   DISPLAY (\"Hotel\")\n }\n ELSE \n {\n   IF (y > O)\n   {\n   DISPLAY (\"November\")\n   }\n   ELSE\n   {\n   DISPLAY (\"Yankee\")\n   }\n }\n }\n \n What is displayed as a result of running the program?\nA. Foxtrot\nB. Hotel\nC. November\nD. Yankee",
+        "wrong_response": [
+            "A. None",
+            "B. None",
+            "D. None"
+        ],
+        "correct_response": "C. "
+    },
+    {
+        "prompt": "A list of numbers has n elements, indexed from 1 to n. The following algorithm is intended to display the number of elements in the list that have a value greater than 100. The algorithm uses the variables count and position. Steps 3 and 4 are missing.\n Step 1: Set count to 0 and position to 1.\n Step 2: If the value of the element at index position is greater\n than 100, increase the value of count by 1.\n Step 3: (missing step)\n Step 4: (missing step)\n Step 5: Display the value of count.\n Which of the following could be used to replace steps 3 and 4 so that the algorithm works as intended?\nA. Step 3: Increase the value of position by 1.\n Step 4: Repeat steps 2 and 3 until the value of count is greater than 100.\nB. Step 3: Increase the value of position by 1.\n Step 4: Repeat steps 2 and 3 until t he value of position is greater than n.\nC. Step 3: Repeat step 2 until the value of count is greater than 100.\n Step 4: Increase the value of position by 1.\nD. Step 3: Repeat step 2 until the value of position is greater than n.\n Step 4: Increase the value of count by 1.",
+        "wrong_response": [
+            "A. None",
+            "B. None",
+            "C. None"
+        ],
+        "correct_response": "D. None"
+    }
+]

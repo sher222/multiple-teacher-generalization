@@ -26,7 +26,7 @@ if __name__ == "__main__":
                 question = row[0]
                 answer = row[5]
                 question_str = f"{question}\nA. {row[1]}\nB. {row[2]}\nC. {row[3]}\nD. {row[4]}"
-                message_str = f"The following multiple choice question has the answer {answer}. Give a {length} explanation of why {answer} is the correct answer. Do not mention the letter {answer} in your sentence.\n{question_str}"
+                message_str = f"The following multiple choice question has the answer {answer}. Give a {length} explanation of why {answer} is the correct answer. Do not mention the letter {answer} in your explanation.\n{question_str}"
                 messages.append({"prompt": message_str, "question": question_str, "answer": answer})
 
     savepath = f"prompts_{args.length}.json" if not args.dev else f"prompts_{args.length}_dev.json"
@@ -34,3 +34,4 @@ if __name__ == "__main__":
         json.dump(messages, f, indent=4)
             
     
+
