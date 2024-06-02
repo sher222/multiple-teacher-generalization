@@ -152,7 +152,7 @@ def main():
     parser = argparse.ArgumentParser(description="generate MMLU splits")
     parser.add_argument("--data_path", type=str, required=True, help="path to MMLU")
     parser.add_argument("--dev", action="store_true", help="if using  dev set")
-    parser.add_argument("--length", type=str, default="medium", help="Length of the explanation")
+    parser.add_argument("--length", type=str, default="medium", help="length of the explanation")
 
     args = parser.parse_args()
 
