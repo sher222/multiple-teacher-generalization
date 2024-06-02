@@ -146,13 +146,13 @@ def assign_difficulty(questions, model):
             question['difficulty'] = 'hard'
     return questions
 
-data_path = "/juice4/scr4/nlp/music/old_lakh_datasets/kathli/data"
+data_path = "/Users/kushalthaman/multiple-teacher-generalization/data_gen/together/data"
 
 def main():
     parser = argparse.ArgumentParser(description="generate MMLU splits")
     parser.add_argument("--data_path", type=str, required=True, help="path to MMLU")
     parser.add_argument("--dev", action="store_true", help="if using  dev set")
-    parser.add_argument("--length", type=str, default="medium", help="length of the explanation")
+    parser.add_argument("--length", type=str, default="medium", help="Length of the explanation")
 
     args = parser.parse_args()
 
@@ -171,7 +171,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 #python generate_mmlu_prompts.py --data_path /path/to/mmlu/data --dev
 
