@@ -143,10 +143,10 @@ def load_json(filepath):
         return json.load(f)
 
 
-easy_train = load_json("easy_train_updated.json")
-easy_test = load_json("easy_test_updated.json")
-hard_train = load_json("hard_train_updated.json")
-hard_test = load_json("hard_test_updated.json")
+easy_train = load_json("easy_train.json")
+easy_test = load_json("easy_test.json")
+hard_train = load_json("hard_train.json")
+hard_test = load_json("hard_test.json")
 
 def generate_data(args):
     data_path = args.data_path
@@ -253,10 +253,10 @@ def main():
         return
 
     splits = {
-        "easy_train": load_json(os.path.join(json_dir, "easy_train_updated.json")),
-        "easy_test": load_json(os.path.join(json_dir, "easy_test_updated.json")),
-        "hard_train": load_json(os.path.join(json_dir, "hard_train_updated.json")),
-        "hard_test": load_json(os.path.join(json_dir, "hard_test_updated.json")),
+        "easy_train": load_json(os.path.join(json_dir, "easy_train.json")),
+        "easy_test": load_json(os.path.join(json_dir, "easy_test.json")),
+        "hard_train": load_json(os.path.join(json_dir, "hard_train.json")),
+        "hard_test": load_json(os.path.join(json_dir, "hard_test.json")),
     }
 
     if not any(any(v) for k, v in splits.items()):
