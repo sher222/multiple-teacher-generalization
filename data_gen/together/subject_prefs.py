@@ -1,5 +1,6 @@
 import json
 from together import Together
+import together
 from tqdm import tqdm
 import os 
 import pandas as pd
@@ -16,8 +17,9 @@ class TogetherModel:
         'b8a9a5e93fcaf5d49a5579fde6e9708bee173848a5fa884af50129daff2543b8'
     ]
 
-    def __init__(self, models, api_keys):
-        self.models = models
+    def __init__(self, preferred_model, dispreferred_model, api_keys):
+        self.preferred_model = preferred_model
+        self.dispreferred_model = dispreferred_model
         self.api_keys = api_keys
 
     def thread_call(self, args):
@@ -45,24 +47,26 @@ class TogetherModel:
                     'top_p': top_p
                 }
             except together.error.RateLimitError:
+                print("rate limit exceeded, retrying after a short pause...")
                 time.sleep(2)
             except together.error.InvalidRequestError:
-                prompt = " ".join(prompt.split(" ")[:2500])  
+                prompt = " ".join(prompt.split(" ")[:2500])
             except Exception as e:
                 print(f"Unexpected error: {e}")
                 return None
-            
-    def get_responses(self, prompts, temp=0.7, top_k=1, top_p=0.9):
+
+    def get_responses(self, prompts, model, temp=0.7, top_k=1, top_p=0.9):
         tasks = [(model, prompt, self.api_keys[i % len(self.api_keys)], temp, top_k, top_p)
-                 for i, (model, prompt) in enumerate([(model, prompt) for model in self.models for prompt in prompts])]
+                 for i, prompt in enumerate(prompts)]
 
         rows = []
-        num_processes = min(len(self.api_keys) * 2, len(tasks))   
+        num_processes = max(min(len(self.api_keys) * 2, len(tasks)), 1)  # Ensure num_processes is at least 1
         with Pool(processes=num_processes) as pool:
             for result in tqdm(pool.imap_unordered(self.thread_call, tasks), total=len(tasks)):
                 if result:
                     rows.append(result)
         return rows
+
 
 subcategories = {
     "abstract_algebra": ["math"],
@@ -138,15 +142,14 @@ def get_category(subject):
     return "other"
 
 def load_json(filepath):
-    print(f"Loading JSON file: {filepath}")
     with open(filepath, "r") as f:
         return json.load(f)
 
 
-easy_train = load_json("easy_train.json")
-easy_test = load_json("easy_test.json")
-hard_train = load_json("hard_train.json")
-hard_test = load_json("hard_test.json")
+easy_train = load_json("easy_train_fullmmlu.json")
+easy_test = load_json("easy_test_fullmmlu.json")
+hard_train = load_json("hard_train_fullmmlu.json")
+hard_test = load_json("hard_test_fullmmlu.json")
 
 def generate_data(args):
     data_path = args.data_path
@@ -199,27 +202,32 @@ def generate_data(args):
     return splits
 
 def generate_responses(questions, together_model):
-    prompts = []
+    preferred_prompts = []
+    dispreferred_prompts = []
     for question in tqdm(questions, desc="Generating prompts"):
-        preferred_prompt = f"You are an expert in {question['subject']}. The following multiple choice question has the correct answer {question['correct_ans']}. Provide an explanation of why {question['correct_ans']} is the correct answer. Do not mention the option {question['correct_ans']} in your explanation.\n{question['prompt']}"
-        dispreferred_prompt = f"Answer the following multiple choice question without being given the correct answer in advance.\n{question['prompt']}"
-        prompts.append(preferred_prompt)
-        prompts.append(dispreferred_prompt)
+        preferred_prompt = f"You are an expert in {question['subject']}. The following multiple choice question has the correct answer {question['correct_ans']}. Provide a concise explanation of the correct answer {question['correct_ans']}. Start the response by first printing the correct option {question['correct_ans']}, followed by your explanation.\n{question['prompt']}"
+        dispreferred_prompt = f"Answer the following multiple choice question by first printing the correct response, followed by a concise explanation. \n{question['prompt']}"
+        preferred_prompts.append(preferred_prompt)
+        dispreferred_prompts.append(dispreferred_prompt)
 
-    print(f"Total prompts generated: {len(prompts)}")
-    responses = together_model.get_responses(prompts)
-    print(f"Total responses received: {len(responses)}")
+    print(f"Total preferred prompts generated: {len(preferred_prompts)}")
+    preferred_responses = together_model.get_responses(preferred_prompts, together_model.preferred_model)
+    print(f"Total preferred responses received: {len(preferred_responses)}")
+
+    print(f"Total dispreferred prompts generated: {len(dispreferred_prompts)}")
+    dispreferred_responses = together_model.get_responses(dispreferred_prompts, together_model.dispreferred_model)
+    print(f"Total dispreferred responses received: {len(dispreferred_responses)}")
 
     formatted_responses = []
-    for i in range(0, len(responses), 2):
+    for i in range(len(preferred_responses)):
         formatted_responses.append({
-            "prompt": questions[i//2]['prompt'],
-            "correct_ans": questions[i//2]['correct_ans'],
-            "subject": questions[i//2]['subject'],
-            "category": questions[i//2]['category'],
-            "difficulty": questions[i//2]['difficulty'],
-            "preferred_response": responses[i]['response'],
-            "dispreferred_response": responses[i + 1]['response']
+            "prompt": questions[i]['prompt'],
+            "correct_ans": questions[i]['correct_ans'],
+            "subject": questions[i]['subject'],
+            "category": questions[i]['category'],
+            "difficulty": questions[i]['difficulty'],
+            "preferred_response": preferred_responses[i]['response'],
+            "dispreferred_response": dispreferred_responses[i]['response']
         })
     return formatted_responses
 
@@ -229,7 +237,6 @@ def save_responses(splits_responses, base_filepath):
             filepath = f"{base_filepath}_{split_name}_{category}.json"
             with open(filepath, "w") as f:
                 json.dump(responses, f, indent=4)
-
 
 def main():
     parser = argparse.ArgumentParser(description="Generate MMLU preferred data")
@@ -244,7 +251,8 @@ def main():
         '13649da461df6431e6505013783d8b8e724311ad1996c6b1a9aba890c3095cc4',
         'b8a9a5e93fcaf5d49a5579fde6e9708bee173848a5fa884af50129daff2543b8'
     ]
-    models = ["mistralai/Mixtral-8x22B-Instruct-v0.1"]
+    preferred_model = "meta-llama/Llama-3-70b-chat-hf"
+    dispreferred_model = "Qwen/Qwen1.5-1.8B-Chat"
 
     json_dir = args.data_path  # Directly use the provided data path
 
@@ -253,26 +261,25 @@ def main():
         return
 
     splits = {
-        "easy_train": load_json(os.path.join(json_dir, "easy_train.json")),
-        "easy_test": load_json(os.path.join(json_dir, "easy_test.json")),
-        "hard_train": load_json(os.path.join(json_dir, "hard_train.json")),
-        "hard_test": load_json(os.path.join(json_dir, "hard_test.json")),
+        "easy_train": load_json(os.path.join(json_dir, "easy_train_fullmmlu.json")),
+        "easy_test": load_json(os.path.join(json_dir, "easy_test_fullmmlu.json")),
+        "hard_train": load_json(os.path.join(json_dir, "hard_train_fullmmlu.json")),
+        "hard_test": load_json(os.path.join(json_dir, "hard_test_fullmmlu.json")),
     }
 
     if not any(any(v) for k, v in splits.items()):
         print("No questions loaded, exiting.")
         return
 
-    together_model = TogetherModel(models, api_keys)
+    together_model = TogetherModel(preferred_model, dispreferred_model, api_keys)
     splits_responses = {split: {category: generate_responses([q for q in questions if q['category'] == category], together_model)
                                 for category in categories.keys()}
                         for split, questions in splits.items()}
-    save_responses(splits_responses, "evaluated_responses")
+    save_responses(splits_responses, "completed_evaluated_responses")
     print("Evaluated responses saved successfully.")
 
 if __name__ == "__main__":
     main()
-
 
 
 
@@ -281,3 +288,6 @@ if __name__ == "__main__":
             # Use imap or imap_unordered for non-blocking pool map operation
             # Wrap the pool.imap or pool.imap_unordered call with tqdm for progress bar
             # Note: Adjust `total` parameter as per your tasks length if necessarys
+
+
+#python subject_prefs.py --data_path /Users/kushalthaman/multiple-teacher-generalization/data_gen/together --dev
