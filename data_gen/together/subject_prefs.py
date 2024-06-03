@@ -138,13 +138,15 @@ def get_category(subject):
     return "other"
 
 def load_json(filepath):
+    print(f"Loading JSON file: {filepath}")
     with open(filepath, "r") as f:
         return json.load(f)
 
-easy_train = load_json("easy_train.json")
-easy_test = load_json("easy_test.json")
-hard_train = load_json("hard_train.json")
-hard_test = load_json("hard_test.json")
+
+easy_train = load_json("easy_train_updated.json")
+easy_test = load_json("easy_test_updated.json")
+hard_train = load_json("hard_train_updated.json")
+hard_test = load_json("hard_test_updated.json")
 
 def generate_data(args):
     data_path = args.data_path
@@ -198,13 +200,15 @@ def generate_data(args):
 
 def generate_responses(questions, together_model):
     prompts = []
-    for question in tqdm(questions, desc="generating prompts"):
+    for question in tqdm(questions, desc="Generating prompts"):
         preferred_prompt = f"You are an expert in {question['subject']}. The following multiple choice question has the correct answer {question['correct_ans']}. Provide an explanation of why {question['correct_ans']} is the correct answer. Do not mention the option {question['correct_ans']} in your explanation.\n{question['prompt']}"
         dispreferred_prompt = f"Answer the following multiple choice question without being given the correct answer in advance.\n{question['prompt']}"
         prompts.append(preferred_prompt)
         prompts.append(dispreferred_prompt)
 
+    print(f"Total prompts generated: {len(prompts)}")
     responses = together_model.get_responses(prompts)
+    print(f"Total responses received: {len(responses)}")
 
     formatted_responses = []
     for i in range(0, len(responses), 2):
@@ -226,13 +230,14 @@ def save_responses(splits_responses, base_filepath):
             with open(filepath, "w") as f:
                 json.dump(responses, f, indent=4)
 
+
 def main():
     parser = argparse.ArgumentParser(description="Generate MMLU preferred data")
     parser.add_argument("--data_path", type=str, required=True, help="Path to data")
     parser.add_argument("--dev", action="store_true", help="Use the dev set")
     args = parser.parse_args()
 
-    api_keys = [ #02 - 06
+    api_keys = [
         '303e07102419a98aae9be912b8e612cf16c0a54babfde4927bf4e86e9a4b76d6',
         '96b81f69214836f2d22785fbcff82e8b48c78797c7683c34242a70739bdb378b',
         'cd073033f34fdfe978e4ef77f47b5ad7d0508fde15dd9b02802c4c7fca4eb126',
@@ -241,17 +246,17 @@ def main():
     ]
     models = ["mistralai/Mixtral-8x22B-Instruct-v0.1"]
 
-    json_dir = os.path.join(args.data_path, "../together")
+    json_dir = args.data_path  # Directly use the provided data path
 
     if not os.path.exists(json_dir):
         print(f"Data path {json_dir} does not exist.")
         return
 
     splits = {
-        "easy_train": load_json(os.path.join(json_dir, "easy_train.json")),
-        "easy_test": load_json(os.path.join(json_dir, "easy_test.json")),
-        "hard_train": load_json(os.path.join(json_dir, "hard_train.json")),
-        "hard_test": load_json(os.path.join(json_dir, "hard_test.json")),
+        "easy_train": load_json(os.path.join(json_dir, "easy_train_updated.json")),
+        "easy_test": load_json(os.path.join(json_dir, "easy_test_updated.json")),
+        "hard_train": load_json(os.path.join(json_dir, "hard_train_updated.json")),
+        "hard_test": load_json(os.path.join(json_dir, "hard_test_updated.json")),
     }
 
     if not any(any(v) for k, v in splits.items()):
@@ -264,6 +269,9 @@ def main():
                         for split, questions in splits.items()}
     save_responses(splits_responses, "evaluated_responses")
     print("Evaluated responses saved successfully.")
+
+if __name__ == "__main__":
+    main()
 
 
 
