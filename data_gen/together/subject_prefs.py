@@ -227,9 +227,9 @@ def save_responses(splits_responses, base_filepath):
                 json.dump(responses, f, indent=4)
 
 def main():
-    parser = argparse.ArgumentParser(description="generate MMLU pref data")
-    parser.add_argument("--data_path", type=str, required=True, help="path to data")
-    parser.add_argument("--dev", action="store_true", help="if using the dev set")
+    parser = argparse.ArgumentParser(description="Generate MMLU preferred data")
+    parser.add_argument("--data_path", type=str, required=True, help="Path to data")
+    parser.add_argument("--dev", action="store_true", help="Use the dev set")
     args = parser.parse_args()
 
     api_keys = [ #02 - 06
@@ -240,10 +240,11 @@ def main():
         'b8a9a5e93fcaf5d49a5579fde6e9708bee173848a5fa884af50129daff2543b8'
     ]
     models = ["mistralai/Mixtral-8x22B-Instruct-v0.1"]
-    json_dir = os.path.join(args.data_path, "together")
 
-    if not os.path.exists(args.data_path):
-        print(f"Data path {args.data_path} does not exist.")
+    json_dir = os.path.join(args.data_path, "../together")
+
+    if not os.path.exists(json_dir):
+        print(f"Data path {json_dir} does not exist.")
         return
 
     splits = {
@@ -252,19 +253,17 @@ def main():
         "hard_train": load_json(os.path.join(json_dir, "hard_train.json")),
         "hard_test": load_json(os.path.join(json_dir, "hard_test.json")),
     }
-    if not any(any(categories.values()) for categories in splits.values()):
-        print("no questions generated,exiting.")
+
+    if not any(any(v) for k, v in splits.items()):
+        print("No questions loaded, exiting.")
         return
 
     together_model = TogetherModel(models, api_keys)
-    splits_responses = {split: {category: generate_responses(questions, together_model)
-                                for category, questions in categories.items()}
-                        for split, categories in splits.items()}
+    splits_responses = {split: {category: generate_responses([q for q in questions if q['category'] == category], together_model)
+                                for category in categories.keys()}
+                        for split, questions in splits.items()}
     save_responses(splits_responses, "evaluated_responses")
-    print("evaluated responses saved successfully.")
-
-if __name__ == "__main__":
-    main()
+    print("Evaluated responses saved successfully.")
 
 
 
