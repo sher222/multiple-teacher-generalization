@@ -197,12 +197,14 @@ def generate_data(args):
     return splits
 
 def generate_responses(questions, together_model):
-    responses = []
-    for question in tqdm(questions, desc="Generating responses"):
-        preferred_prompt = f"You are an expert in {question['subject']}. The following multiple choice question has the correct answer {question['correct_ans']}. Provide an explanation of why {question['correct_ans']} is the correct answer. Do not mention the letter {question['correct_ans']} in your explanation.\n{question['prompt']}"
+    prompts = []
+    for question in tqdm(questions, desc="generating prompts"):
+        preferred_prompt = f"You are an expert in {question['subject']}. The following multiple choice question has the correct answer {question['correct_ans']}. Provide an explanation of why {question['correct_ans']} is the correct answer. Do not mention the option {question['correct_ans']} in your explanation.\n{question['prompt']}"
         dispreferred_prompt = f"Answer the following multiple choice question without being given the correct answer in advance.\n{question['prompt']}"
+        prompts.append(preferred_prompt)
+        prompts.append(dispreferred_prompt)
 
-        responses += together_model.get_responses([preferred_prompt, dispreferred_prompt])
+    responses = together_model.get_responses(prompts)
 
     formatted_responses = []
     for i in range(0, len(responses), 2):
@@ -265,4 +267,4 @@ if __name__ == "__main__":
 
             # Use imap or imap_unordered for non-blocking pool map operation
             # Wrap the pool.imap or pool.imap_unordered call with tqdm for progress bar
-            # Note: Adjust `total` parameter as per your tasks length if necessary
+            # Note: Adjust `total` parameter as per your tasks length if necessarys
