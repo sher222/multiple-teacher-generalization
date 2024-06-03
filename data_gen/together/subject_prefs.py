@@ -240,12 +240,18 @@ def main():
         'b8a9a5e93fcaf5d49a5579fde6e9708bee173848a5fa884af50129daff2543b8'
     ]
     models = ["mistralai/Mixtral-8x22B-Instruct-v0.1"]
+    json_dir = os.path.join(args.data_path, "together")
 
     if not os.path.exists(args.data_path):
         print(f"Data path {args.data_path} does not exist.")
         return
 
-    splits = generate_data(args)
+    splits = {
+        "easy_train": load_json(os.path.join(json_dir, "easy_train.json")),
+        "easy_test": load_json(os.path.join(json_dir, "easy_test.json")),
+        "hard_train": load_json(os.path.join(json_dir, "hard_train.json")),
+        "hard_test": load_json(os.path.join(json_dir, "hard_test.json")),
+    }
     if not any(any(categories.values()) for categories in splits.values()):
         print("no questions generated,exiting.")
         return
@@ -263,7 +269,7 @@ if __name__ == "__main__":
 
 
 
-#python generate_mmlu_prompts.py --data_path /Users/kushalthaman/multiple-teacher-generalization/data_gen/together/data
+#python subject_prefs.py --data_path /Users/kushalthaman/multiple-teacher-generalization/data_gen/together/data
 
             # Use imap or imap_unordered for non-blocking pool map operation
             # Wrap the pool.imap or pool.imap_unordered call with tqdm for progress bar
