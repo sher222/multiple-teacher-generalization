@@ -1,0 +1,226 @@
+[
+    {
+        "prompt": "Which of the following is the body cavity that contains the pituitary gland?\nA. Abdominal\nB. Cranial\nC. Pleural\nD. Spinal",
+        "correct_ans": "B",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\nA. It would be harder since the truck is heavier on Mars.\nB. It would be easier since the truck is lighter on Mars.\nC. It would be harder since the truck is lighter on Mars.\nD. It would be the same no matter where you are.",
+        "correct_ans": "D",
+        "subject": "physics",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Why is Mars red?\nA. Because the surface is covered with heavily oxidized (\"rusted\") minerals.\nB. Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light.\nC. Because Mars is covered with ancient lava flows which are red in color.\nD. Because flowing water on Mars's surface altered the surface minerals several billion years ago.",
+        "correct_ans": "A",
+        "subject": "physics",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "The energy for all forms of muscle contraction is provided by:\nA. ATP.\nB. ADP.\nC. phosphocreatine.\nD. oxidative phosphorylation.",
+        "correct_ans": "A",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "A high school science teacher fills a 1 liter bottle with pure nitrogen and seals the lid. The pressure is 1.70 atm, and the room temperature is 25\u00b0C. Which two variables will both increase the pressure of the system, if all other variables are held constant?\nA. Increasing temperature, increasing moles of gas\nB. Increasing temperature, increasing volume\nC. Decreasing volume, decreasing temperature\nD. Decreasing moles of gas, increasing volume",
+        "correct_ans": "A",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "An expected side effect of creatine supplementation is:\nA. muscle weakness.\nB. gain in body mass.\nC. muscle cramps.\nD. loss of electrolytes.",
+        "correct_ans": "B",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "For which of the following thermodynamic processes is the increase in the internal energy of an ideal gas equal to the heat added to the gas?\nA. Constant temperature\nB. Constant volume\nC. Constant pressure\nD. Adiabatic",
+        "correct_ans": "B",
+        "subject": "physics",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "SHA-1 has a message digest of\nA. 160 bits\nB. 512 bits\nC. 628 bits\nD. 820 bits",
+        "correct_ans": "A",
+        "subject": "computer science",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "For a stationary autoregressive process, shocks will\nA. Eventually die away\nB. Persist indefinitely\nC. Grow exponentially\nD. Never occur",
+        "correct_ans": "A",
+        "subject": "economics",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Consider the following AR(1) model with the disturbances having zero mean and unit variance\n\nyt = 0.2 + 0.4 yt-1 + ut\n\nThe (unconditional) mean of y will be given by\nA. 0.2\nB. 0.4\nC. 0.5\nD. 0.33",
+        "correct_ans": "D",
+        "subject": "economics",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "In a 2 pole lap winding dc machine , the resistance of one conductor is 2\u03a9 and total number of conductors is 100. Find the total resistance\nA. 200\u03a9\nB. 100\u03a9\nC. 50\u03a9\nD. 10\u03a9",
+        "correct_ans": "C",
+        "subject": "engineering",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "A total of 30 players will play basketball at a park. There will be exactly 5 players on each team. Which statement correctly explains how to find the number of teams needed?\nA. Add 5 to 30 to find 35 teams.\nB. Divide 30 by 5 to find 6 teams.\nC. Multiply 30 and 5 to find 150 teams.\nD. Subtract 5 from 30 to find 25 teams.",
+        "correct_ans": "B",
+        "subject": "math",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Select the best translation into predicate logic.George borrows Hector's lawnmower. (g: George; h: Hector; l: Hector's lawnmower; Bxyx: x borrows y from z)\nA. Blgh\nB. Bhlg\nC. Bglh\nD. Bghl",
+        "correct_ans": "C",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Which of the following is an example of the use of a device on the Internet of Things (IoT) ?\nA. A car alerts a driver that it is about to hit an object.\nB. A hiker uses a G P S watch to keep track of her position.\nC. A refrigerator orders milk from an online delivery service when the milk in the refrigerator is almost gone.\nD. A runner uses a watch with optical sensors to monitor his heart rate.",
+        "correct_ans": "C",
+        "subject": "computer science",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "What is the output of \"abc\"[::-1] in Python 3?\nA. Error\nB. abc\nC. cba\nD. c",
+        "correct_ans": "C",
+        "subject": "computer science",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "In the program below, the initial value of x is 5 and the initial value of y is 10.\n IF (X < O)\n {\n DISPLAY (\"Foxtrot\")\n }\n ELSE\n {\n IF (X > y)\n {\n   DISPLAY (\"Hotel\")\n }\n ELSE \n {\n   IF (y > O)\n   {\n   DISPLAY (\"November\")\n   }\n   ELSE\n   {\n   DISPLAY (\"Yankee\")\n   }\n }\n }\n \n What is displayed as a result of running the program?\nA. Foxtrot\nB. Hotel\nC. November\nD. Yankee",
+        "correct_ans": "C",
+        "subject": "computer science",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "The rate of natural increase of a population is found by subtracting the\nA. crude death rate from the crude birth date.\nB. crude birth rate from the crude death rate.\nC. doubling time from the crude birth rate.\nD. fertility rate from the crude death rate.",
+        "correct_ans": "A",
+        "subject": "geography",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "During the third stage of the demographic transition model, which of the following is true?\nA. Birth rates increase and population growth rate is less rapid.\nB. Birth rates decline and population growth rate is less rapid.\nC. Birth rates increase and population growth rate increases.\nD. Birth rates decrease and population growth rate increases.",
+        "correct_ans": "B",
+        "subject": "geography",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "The practice of hiring a foreign third-party service provider to run an operation is called\nA. outsourcing.\nB. offshoring.\nC. maquiladoras.\nD. locational interdependence.",
+        "correct_ans": "B",
+        "subject": "geography",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Which of the following cases established the precedent that a defendant must be informed of the right to remain silent, the right to a lawyer, and protection from self-incrimination?\nA. Weeks v. United States\nB. Betts v. Brady\nC. Mapp v. Ohio\nD. Miranda v. Arizona",
+        "correct_ans": "D",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Which of the following best states an argument made by James Madison in The Federalist number 10?\nA. Honest politicians can prevent factions from developing.\nB. Factions are more likely to occur in large republics than in small ones.\nC. The negative effects of factionalism can be reduced by a republican government.\nD. Free elections are the people's best defense against factionalism.",
+        "correct_ans": "C",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Ten students take a biology test and receive the following scores: 45, 55, 50, 70, 65, 80, 40, 90, 70, 85. What is the mean of the students\u2019 test scores?\nA. 55\nB. 60\nC. 62\nD. 65",
+        "correct_ans": "D",
+        "subject": "math",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nA. a strong superego.\nB. low self-esteem.\nC. low self-efficacy.\nD. an internal locus of control.",
+        "correct_ans": "D",
+        "subject": "psychology",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Suppose X and Y are random variables with E(X) = 37, var(X) = 5, E(Y) = 62, and var(Y) = 12. What are the expected value and variance of the random variable X + Y?\nA. E(X + Y) = 99, var(X + Y) = 8.5\nB. E(X + Y) = 99, var(X + Y) = 13\nC. E(X + Y) = 99, var(X + Y) = 17\nD. There is insufficient information to answer this question.",
+        "correct_ans": "D",
+        "subject": "math",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "After a frost warning was issued, the owner of a large orange grove asked his workers to spray all his trees with water. The water was supposed to freeze and form a protective covering of ice around the orange blossom. Nevertheless, the owner suspected that some trees suffered considerable damage due to the frost. To estimate the proportion of trees that suffered more than 50 percent damage due to the frost, he took a random sample of 100 trees from his grove. What is the response variable in this experiment?\nA. The proportion of trees that suffered more than 50 percent damage due to frost.\nB. The number of trees affected by the frost.\nC. The number of trees sampled from the grove.\nD. For each sampled tree, whether it suffered more than 50 percent damage or at most 50 percent damage.",
+        "correct_ans": "D",
+        "subject": "math",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "This question refers to the following information.\nHe contains all works and desires and all perfumes and all tastes. He enfolds the whole universe and in silence is loving to all. This is the Spirit that is in my heart, this is Brahman. To him I shall come when I go beyond this life, and to him will come he who has faith and doubts not.\n\u2014The Upanishads, India, c. 1000 BCE\nTo which religion does the speaker most likely belong?\nA. Hinduism\nB. Buddhism\nC. Shintoism\nD. Zoroastrianism",
+        "correct_ans": "A",
+        "subject": "history",
+        "category": "humanities",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "When older adults move to a new state after retirement, which of the following is the more likely destination?\nA. Texas\nB. California\nC. Hawaii\nD. Vermont",
+        "correct_ans": "A",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Morning sickness is typically a problem:\nA. during the first trimester\nB. during the second trimester\nC. during the third trimester\nD. all through the pregnancy",
+        "correct_ans": "A",
+        "subject": "culture",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Women's ability to have multiple orgasms is primarily due to:\nA. the fact that they do not have a refractory period.\nB. the response of the inner layers of the vagina.\nC. having alternating orgasms in different locations.\nD. the G-Spot.",
+        "correct_ans": "A",
+        "subject": "culture",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "What is the judge ad hoc?\nA. If a party to a contentious case before the ICJ does not have a national sitting as judge, it is entitled to nominate someone as a judge solely for that case, with the title of judge ad hoc\nB. Judge ad hoc is the member of the bench of the ICJ with a casting vote\nC. Judge ad hoc is a surrogate judge, in case a judge is disqualified or passes away\nD. Judge ad hoc is the judge that each party will always nominate in every contentious case",
+        "correct_ans": "A",
+        "subject": "law",
+        "category": "humanities",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "The ________ School of jurisprudence postulates that the law is based on what is \"correct.\"\nA. Natural Law\nB. Analytical\nC. Historical\nD. Sociological",
+        "correct_ans": "A",
+        "subject": "law",
+        "category": "humanities",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\nA. tu quoque\nB. horse laugh\nC. argument against the person\nD. ignoratio elenchi",
+        "correct_ans": "C",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "easy"
+    }
+]

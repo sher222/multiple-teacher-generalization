@@ -1,0 +1,100 @@
+[
+    {
+        "prompt": "Which image data augmentation is most common for natural images?\nA. random crop and horizontal flip\nB. random crop and vertical flip\nC. posterization\nD. dithering",
+        "correct_ans": "A",
+        "subject": "computer science",
+        "category": "STEM",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "In an organization, the group of people tasked with buying decisions is referred to as the _______________.\nA. Outsourcing unit.\nB. Procurement centre.\nC. Chief executive unit.\nD. Decision-making unit.",
+        "correct_ans": "D",
+        "subject": "business",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": " Which of the following is an assumption in Maslow's hierarchy of needs?\nA. Needs are dependent on culture and also on social class.\nB. Lower-level needs must be at least partially satisfied before higher needs can affect behaviour.\nC. Needs are not prioritized or arranged in any particular order.\nD. Satisfied needs are motivators, and new needs emerge when current needs remain unmet.",
+        "correct_ans": "B",
+        "subject": "business",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "DNA ligase is\nA. an enzyme that joins fragments in normal DNA replication\nB. an enzyme of bacterial origin which cuts DNA at defined base sequences\nC. an enzyme that facilitates transcription of specific genes\nD. an enzyme which limits the level to which a particular nutrient reaches",
+        "correct_ans": "A",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "A gene showing codominance\nA. has both alleles independently expressed in the heterozygote\nB. has one allele dominant to the other\nC. has alleles tightly linked on the same chromosome\nD. has alleles expressed at the same time in development",
+        "correct_ans": "A",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "The stage of meiosis in which chromosomes pair and cross over is:\nA. prophase I\nB. metaphase I\nC. prophase II\nD. metaphase II",
+        "correct_ans": "A",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "How many axles does a standard automobile have?\nA. one\nB. two\nC. four\nD. eight",
+        "correct_ans": "B",
+        "subject": "other",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Who is the shortest man to ever win an NBA slam dunk competition?\nA. Anthony 'Spud' Webb\nB. Michael 'Air' Jordan\nC. Tyrone 'Muggsy' Bogues\nD. Julius 'Dr J' Erving",
+        "correct_ans": "A",
+        "subject": "other",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "What is produced during photosynthesis?\nA. hydrogen\nB. nylon\nC. oxygen\nD. light",
+        "correct_ans": "C",
+        "subject": "other",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "Which of these songs was a Top 10 hit for the rock band The Police?\nA. 'Radio Ga-Ga'\nB. 'Ob-la-di Ob-la-da'\nC. 'De Do Do Do De Da Da Da'\nD. 'In-a-Gadda-Da-Vida'",
+        "correct_ans": "C",
+        "subject": "other",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "A fertilized ovum is also known as\nA. a zygote.\nB. an embryo.\nC. a viability.\nD. a blastocyst.",
+        "correct_ans": "A",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "One hundred years ago, your great-great-grandmother invested $100 at 5% yearly interest. What is the investment worth today?\nA. $13,000\nB. $600\nC. $15,000\nD. $28,000",
+        "correct_ans": "A",
+        "subject": "other",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "The realm of policy decisions concerned primarily with relations between the United States and the rest of the world is known as\nA. terrorism policy.\nB. economic policy.\nC. foreign policy.\nD. international policy.",
+        "correct_ans": "C",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "easy"
+    },
+    {
+        "prompt": "The most important goal of a behavioral intervention is:\nA. Change in behavior\nB. Comprehensive coverage\nC. Effective use of behavioral theory\nD. Sustained behavior change",
+        "correct_ans": "D",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "easy"
+    }
+]

@@ -1,0 +1,506 @@
+[
+    {
+        "prompt": "What place is named in the title of the 1979 live album by rock legends Cheap Trick?\nA. Budapest\nB. Budokan\nC. Bhutan\nD. Britain",
+        "correct_ans": "B",
+        "subject": "other",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\nA. It is unclear as of yet whether or not capital punishment deters harm to the community.\nB. It is unclear as of yet whether or not capital punishment deters harm to any individuals.\nC. Consequentialism is not supported by African values.\nD. Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.",
+        "correct_ans": "A",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Which of the following is an intrinsic good, according to Singer?\nA. being in the upper class\nB. the ability to learn and solve problems\nC. being more beautiful than most of the population\nD. being shorter than average",
+        "correct_ans": "B",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\nA. SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction.\nB. Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT.\nC. both A and B\nD. neither A nor B",
+        "correct_ans": "A",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\nA. the stupidity of most traditional philosophical examples.\nB. a general lack of intelligence among people with advanced degrees.\nC. the wrongness of torture.\nD. the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.",
+        "correct_ans": "D",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I really loved my newborn baby boy. Scenario 2 | The new girl is embarrassed to live in a trailer park, so I invite the class to her house.\nA. Wrong, Wrong\nB. Wrong, Not wrong\nC. Not wrong, Wrong\nD. Not wrong, Not wrong",
+        "correct_ans": "C",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I asked for a cigarette from the guy outside the store. Scenario 2 | When the security guard left his post, I pocketed a rare coin.\nA. Wrong, Wrong\nB. Wrong, Not wrong\nC. Not wrong, Wrong\nD. Not wrong, Not wrong",
+        "correct_ans": "C",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I bought an old pick-up truck for work. Scenario 2 | I looked up at the gorgeous waterfall and threw a rock at it.\nA. Wrong, Wrong\nB. Wrong, Not wrong\nC. Not wrong, Wrong\nD. Not wrong, Not wrong",
+        "correct_ans": "D",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | During the house's demolition, I pushed him into a wall. Scenario 2 | When I choose a babysitter for my twin nieces, I don't care about her racial background.\nA. Wrong, Wrong\nB. Wrong, Not wrong\nC. Not wrong, Wrong\nD. Not wrong, Not wrong",
+        "correct_ans": "B",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I took his wallet after he harassed me at the bar. Scenario 2 | I made love to my newborn baby boy.\nA. Wrong, Wrong\nB. Wrong, Not wrong\nC. Not wrong, Wrong\nD. Not wrong, Not wrong",
+        "correct_ans": "A",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "In a cohort study, the risk ratio of developing diabetes was 0.86 when comparing consumers of tea (the exposed) to those who did not drink tea (the unexposed). Which one statement is correct (according to knowledge in 2020)?\n\nA. The tea drinkers have lower risk of developing diabetes.\nB. The tea drinkers have higher risk of developing diabetes.\nC. Based on the information given we cannot tell if the observed difference in disease risk is the result of chance.\nD. The risk ratio is close to the value one, so there is no difference in disease risk between the two groups.",
+        "correct_ans": "C",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Which of the following statements is correct (according to knowledge in 2020)?\n\nA. Consumers with phenylketonuria must avoid the consumption of the sweetener aspartame\nB. Consumers with phenylketonuria must avoid the consumption of the sweetener saccharin\nC. Consumers with phenylketonuria must avoid the consumption of the sweetener sucralose\nD. Consumers with phenylketonuria must avoid the consumption of the sweetener acesulfame K",
+        "correct_ans": "A",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Which of the following is the most plausible explanation for the protective effect of dietary fibre against cancer of the colon, as of 2020?\n\nA. Propionic acid, formed during colonic fibre fermentation inhibits liver fatty acid synthesis\nB. Butyric acid, formed during colonic fibre fermentation stimulates \"silencing\" of the SLC5A8 tumour suppressor gene\nC. None of these options are correct\nD. Butyric acid, formed during colonic fibre fermentation stimulates anti-oxidant defences in the colon",
+        "correct_ans": "D",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Which of the following statements about iodine is correct, as of 2020?\n\nA. 50% of adults consume iodine at levels below the RNI\nB. Dairy products are a poor source of iodine\nC. The iodine content of organic milk is generally lower that the level in non-organic milk\nD. UK dietary reference values recommend an increase in iodine intake in pregnancy",
+        "correct_ans": "C",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "What is the first-line drug for patients with type 2 diabetes and obesity, as of 2020?\n\nA. Acarbose\nB. Metformin\nC. Sulphonylureas\nD. Insulin",
+        "correct_ans": "B",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Psychological egoism is:\nA. an ethical theory about how we ought to behave.\nB. a generalization concerning the way people tend to behave.\nC. a claim about human nature and the ways people are capable of behaving.\nD. none of the above.",
+        "correct_ans": "C",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "According to Moore\u2019s \u201cideal utilitarianism,\u201d the right action is the one that brings about the greatest amount of:\nA. pleasure.\nB. happiness.\nC. good.\nD. virtue.",
+        "correct_ans": "C",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "According to d'Holbach, people always act according to _____.\nA. free choices\nB. dictates of the soul\nC. necessary natural laws\nD. undetermined will",
+        "correct_ans": "C",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Before Tolstoy's Christian conversion, what was his perspective on the meaning of life?\nA. optimist\nB. satisfied\nC. nominally religious\nD. pessimist",
+        "correct_ans": "D",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "The study of reality in the broadest sense, an inquiry into the elemental nature of the universe and the things in it, is known as _____.\nA. metaphysics\nB. epistemology\nC. quantum physics\nD. axiology",
+        "correct_ans": "A",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "The great Mayan king Pacal built temples in the city of Palenque in order to:\nA. satisfy the powerful Mayan astronomer priests.\nB. display his generosity to the common people, since they were allowed to live in the temples.\nC. frighten away enemies, in particular the Spaniards.\nD. legitimize his kingship, since his father was not royal.",
+        "correct_ans": "D",
+        "subject": "history",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:\nA. a center of Mississippian civilization with conditions similar to the rise of early states.\nB. the limitations of authority in a Native American society of egalitarian foragers.\nC. a simple chiefdom or perhaps a complex chiefdom had evolved by A.D. 1500.\nD. a center of Mississippian civilization with conditions similar to societies on the Northwest Coast of North America.",
+        "correct_ans": "A",
+        "subject": "history",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Researchers now believe that the decline of the Maya was caused chiefly by:\nA. a cataclysm of some kind, such as an earthquake, volcano, or tsunami.\nB. ecological degradation resulting from slash-and-burn farming techniques.\nC. endless wars between neighboring Mayan city-states.\nD. practices of interbreeding that led to a steep rise in congenital disorders.",
+        "correct_ans": "B",
+        "subject": "history",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):\nA. a great amount of species diversity, or a single species that exhibited a lot of diversity.\nB. very little species diversity during this period and very few hominids.\nC. decreased species diversity due to a prolonged ice age followed by a severe drought.\nD. decreased species diversity but increased numbers of hammerstones and flakes, indicating stone tool manufacture.",
+        "correct_ans": "A",
+        "subject": "history",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "What is the approximate mean cranial capacity of Homo erectus?\nA. under 650 cc\nB. about 800 cc\nC. just under 1000 cc\nD. 1200 cc",
+        "correct_ans": "C",
+        "subject": "history",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Box a nongovernmental not-for-profit organization had the following transactions during the year: Proceeds from sale of investments $80000 Purchase of property plant and equipment $10000 Proceeds from long-term debt $100000 Loss on sale of investment $5000 What amount should be reported as net cash provided by financing activities in Box's statement of cash flows?\nA. $70,000\nB. $75,000\nC. $80,000\nD. 100000",
+        "correct_ans": "D",
+        "subject": "other",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Krete is an unmarried taxpayer with income exclusively from wages. By December 31, year 1, Krete's employer has withheld $16,000 in federal income taxes and Krete has made no estimated tax payments. On April 15, year 2, Krete timely filed for an extension request to file her individual tax return, and paid $300 of additional taxes. Krete's year 1 tax liability was $16,500 when she timely filed her return on April 30, year 2, and paid the remaining tax liability balance. What amount would be subject to the penalty for underpayment of estimated taxes?\nA. $0\nB. $500\nC. $1,650\nD. $16,500",
+        "correct_ans": "A",
+        "subject": "other",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "On January 1, year 1, Alpha Co. signed an annual maintenance agreement with a software provider for $15,000 and the maintenance period begins on March 1, year 2. Alpha also incurred $5,000 of costs on January 1, year 1, related to software modification requests that will increase the functionality of the software. Alpha depreciates and amortizes its computer and software assets over five years using the straight-line method. What amount is the total expense that Alpha should recognize related to the maintenance agreement and the software modifications for the year ended December 31, year 1?\nA. $5,000\nB. $13,500\nC. $16,000\nD. $20,000",
+        "correct_ans": "B",
+        "subject": "other",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "An auditor traces the serial numbers on equipment to a nonissuer\u2019s subledger. Which of the following management assertions is supported by this test?\nA. Valuation and allocation\nB. Completeness\nC. Rights and obligations\nD. Presentation and disclosure",
+        "correct_ans": "B",
+        "subject": "other",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "A state legislature has recently enacted a statute making it a misdemeanor to curse or revile or use obscene or opprobrious language toward or in reference to a police officer perfonning his duties. A student at a state university organized a demonstration on campus to protest the war. The rally was attended by a group of 50 students who shouted anti-war messages at cars passing by. To show his contempt for the United States, the student sewed the American flag to the rear of his jeans. When a police officer saw the flag sown on the student's jeans, he approached and told him to remove the flag or he would be placed under arrest. The student became angered and shouted at the police officer, \"Listen, you bastard, I'll wear this rag anywhere I please. \" The student was subsequently placed under arrest and charged with violating the state statute. The student subsequently brings suit in state court challenging the constitutionality of the statute. The strongest constitutional argument for the student is that\nA. the statute is void for vagueness under the Fourteenth Amendment's due process clause.\nB. the statute is invalid because it violates the petitioner's freedom of speech under the First Amendment.\nC. the statute is an abridgment of freedom of speech under the First Amendment because less restrictive means are available for achieving the same purpose.\nD. the statute is overbroad and consequently invalid under the First and FourteenthAmendments.",
+        "correct_ans": "D",
+        "subject": "law",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "A state has recently enacted a statute prohibiting the disposal of any nuclear wastes within the state. This law does not contravene or conflict with any federal statutes. A man operates a company in the state that is engaged in the disposal of nuclear wastes. Subsequent to the passage of the state statute, the man, not yet aware of the new law, entered into contracts with many out-of-state firms to dispose of their nuclear wastes in the state. On account of this new law, however, the man will be unable to perform these contracts. Assume that the man has standing to challenge this state law. Which of the following presents his strongest constitutional grounds to challenge the state law prohibiting the disposal of nuclear wastes within the state?\nA. The commerce clause.\nB. The equal protection clause of the Fourteenth Amendment.\nC. The privileges and immunities clause of Article IV, Section 2. \nD. The contract clause.",
+        "correct_ans": "A",
+        "subject": "law",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Judge took judicial notice of some facts at the beginning of the trial. Which of the following is not an appropriate kind of fact for judicial notice?\nA. Indisputable facts.\nB. Facts that have been asserted by individual political organizations.\nC. Facts recognized to be true by common knowledge.\nD. Facts capable of scientific verification.",
+        "correct_ans": "B",
+        "subject": "law",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "On October 1, 1980, a developer, owner of several hundred acres in a rural county, drafted a general development plan for the area. The duly recorded plan imposed elaborate limitations and restrictions upon the land in the plan, which was to be developed as a residential district. The restrictions were to extend to all persons acquiring any of the lots and to their heirs, assigns, and lessees. It was further provided that all subsequent owners would be charged with due notice of the restrictions. Among those restrictions in the general plan were the following:(22) A franchise right is created in a strip of land 10 feet in width along the rear of each lot for the use of public utility companies with right of ingress and egress. (23) No house or structure of any kind shall be built on the aforementioned strip of land running through the said blocks. In 2000, a retiree purchased one of the lots, built a house, and erected a fence in the rear of his property within the restricted area. In 2004, a teacher purchased a lot adjacent to the retiree's property and built a new house. Two years later, a librarian purchased the lot that adjoined the teacher's property. The three deeds to those properties each contained references to the deed book where the general plan was recorded. In 2008, the librarian began the construction of a seven-foot post-and-rail fence along the line dividing his lot with the teacher's, and along the center of the area subject to the franchise right. Although the teacher objected to its construction, the fence was completed. If the teacher seeks a mandatory injunction to compel removal of the librarian's fence, the court will most likely\nA. grant relief, because the fence was in violation of the easement restriction. \nB. grant relief, because the encroachment of the fence violated the restriction in the original plan. \nC. deny relief, because the teacher failed to enforce the restriction against the retiree. \nD. deny relief, because the fence would not be construed as \"a structure\" within the terms of the restriction. ",
+        "correct_ans": "B",
+        "subject": "law",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "A son owed a creditor $5,000. The son's father contacted the creditor and told him that he wanted to pay the son's debt. The father signed a document that stated the father would pay the son's debt at a rate of $500 a month for 10 months. The creditor made no written or oral commitment to forbear to sue the son to collect the $5,000 debt, and the father made no oral or written request for any such forbearance. For the next five months, the father made and the creditor accepted the $500 monthly payments as agreed. During that period, the creditor, in fact, did forbear to take any legal action against the son. However, the father then informed the creditor that he would make no further payments on the debt. Which of the following is the most persuasive argument that the father is liable to the creditor under the terms of their agreement?\nA. The father's promise and the creditor's reliance thereon, if proved, gave rise to a valid claim by the creditor against the father based on the doctrine of promissory estoppel. \nB. Because it was foreseeable that the father's promise would induce the creditor to forbear taking any action against the son, such forbearance was, as a matter of law, a bargained-for consideration for the father's promise. \nC. The father's five payments to the creditor totaling $2,500 manifested a serious intent on the father's part to be contractually bound, and such manifestation is generally recognized as an effective substitute for consideration. \nD. By assuming the antecedent debt obligation that the son owed to the creditor, the father became a surety whose promise to the creditor was enforceable, since it was in writing and supported by adequate consideration. ",
+        "correct_ans": "A",
+        "subject": "law",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "A 42-year-old man comes to the office for preoperative evaluation prior to undergoing adrenalectomy scheduled in 2 weeks. One month ago, he received care in the emergency department for pain over his right flank following a motor vehicle collision. At that time, blood pressure was 160/100 mm Hg and CT scan of the abdomen showed an incidental 10-cm left adrenal mass. Results of laboratory studies, including complete blood count, serum electrolyte concentrations, and liver function tests, were within the reference ranges. The patient otherwise had been healthy and had never been told that he had elevated blood pressure. He takes no medications. A follow-up visit in the office 2 weeks ago disclosed elevated urinary normetanephrine and metanephrine and plasma aldosterone concentrations. The patient was referred to a surgeon, who recommended the adrenalectomy. Today, vital signs are temperature 36.6\u00b0C (97.9\u00b0F), pulse 100/min, respirations 14/min, and blood pressure 170/95 mm Hg. Physical examination discloses no significant findings. Initial preoperative preparation should include treatment with which of the following?\nA. Labetalol\nB. A loading dose of potassium chloride\nC. Nifedipine\nD. Phenoxybenzamine",
+        "correct_ans": "D",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "A 36-year-old male presents to the office with a\u00a03-week\u00a0history of low back pain. He denies any recent trauma but says that he climbs in and out of his truck numerous times a day for his job. Examination of the patient in the prone position reveals a deep sacral sulcus on the left, a posterior inferior lateral angle on the right, and a lumbosacral junction that springs freely on compression. The most likely diagnosis is\nA. left-on-left sacral torsion\nB. left-on-right sacral torsion\nC. right unilateral sacral flexion\nD. right-on-right sacral torsion",
+        "correct_ans": "D",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "A previously healthy 32-year-old woman comes to the physician 8 months after her husband was killed in a car crash. Since that time, she has had a decreased appetite and difficulty falling asleep. She states that she is often sad and cries frequently. She has been rechecking the door lock five times before leaving her house and has to count exactly five pieces of toilet paper before she uses it. She says that she has always been a perfectionist but these urges and rituals are new. Pharmacotherapy should be targeted to which of the following neurotransmitters?\nA. Dopamine\nB. Glutamate\nC. Norepinephrine\nD. Serotonin",
+        "correct_ans": "D",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "A 44-year-old man comes to the office because of a 3-day history of sore throat, nonproductive cough, runny nose, and frontal headache. He says the headache is worse in the morning and ibuprofen does provide some relief. He has not had shortness of breath. Medical history is unremarkable. He takes no medications other than the ibuprofen for pain. Vital signs are temperature 37.4\u00b0C (99.4\u00b0F), pulse 88/min, respirations 18/min, and blood pressure 120/84 mm Hg. Examination of the nares shows erythematous mucous membranes. Examination of the throat shows erythema and follicular lymphoid hyperplasia on the posterior oropharynx. There is no palpable cervical adenopathy. Lungs are clear to auscultation. Which of the following is the most likely cause of this patient's symptoms?\nA. Allergic rhinitis\nB. Epstein-Barr virus\nC. Mycoplasma pneumoniae\nD. Rhinovirus",
+        "correct_ans": "D",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "A 22-year-old male marathon runner presents to the office with the complaint of right-sided rib pain when he runs long distances. Physical examination reveals normal heart and lung findings and an exhalation dysfunction at ribs\u00a04-5 on the right. Which of the following muscles or muscle groups will be most useful in correcting this dysfunction utilizing a direct method?\nA. anterior scalene\nB. latissimus dorsi\nC. pectoralis minor\nD. quadratus lumborum",
+        "correct_ans": "C",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "One of your therapy clients asks your advice about a good weight- reduction program. You have investigated the programs in the community and are enrolled in the one you consider the best. This program offers a $50 bonus to its patrons for each new person they bring into the program. Under these circumstances, your most appropriate response would be to\nA. tell your client the pros and cons of each program you know about except for the one in which you are enrolled\nB. recommend to your client the program in which you are enrolled and explain the $50 bonus you will receive\nC. recommend to your client the program in which you are enrolled and offer to have the $50 bonus credited to your client's account in the program\nD. tell your client the pros and cons of each program you know about, but do not claim the $50 bonus if your client enrolls in your program",
+        "correct_ans": "D",
+        "subject": "psychology",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "There are three ways to measure the Central Tendency: the Mean, the Median and the Mode. From your knowledge about them, what is the mode?\nA. less sensitive to extreme scores than the mean\nB. more useful for skewed distributions\nC. sensitive to extreme values and highly skewed distributions\nD. the most frequently occurring number",
+        "correct_ans": "D",
+        "subject": "psychology",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "In terms of Hofstede\u2019s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nA. individualism.\nB. individualism and power distance.\nC. power distance and masculinity.\nD. uncertainty avoidance.",
+        "correct_ans": "A",
+        "subject": "psychology",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Carl Jung believed that a client's transference:\nA. is a fantasy that distracts the client from reality.\nB. represents \u201cmixed feelings\u201d toward the therapist. \nC. \"is a form of \"\"acting out.\"\"\"\nD. reflects the client\u2019s personal and collective unconscious.",
+        "correct_ans": "D",
+        "subject": "psychology",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "In the construction of a multiple regression equation for purposes of prediction, the optimal combination of measures is one in which the predictors\nA. are uncorrelated with each other but are moderately correlated with the criterion\nB. have low correlations with each other and low correlations with the criterion\nC. are highly intercorrelated with each other and moderately correlated with the criterion\nD. have low correlations with the criterion bur are moderately correlated with each other",
+        "correct_ans": "A",
+        "subject": "psychology",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "What should a public relations media practitioner do if she does not know the answer to a reporter's question?\nA. Give the reporter other information she is certain is correct.\nB. Say that the information is 'off the record' and will be disseminated later.\nC. Say 'I don't know' and promise to provide the information later.\nD. Say 'no comment,' rather than appear uninformed.",
+        "correct_ans": "C",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "In issues management, what is the most proactive approach to addressing negative or misleading information posted online about your organization?\nA. Buy domain names that could be used by opposition groups.\nB. Post anonymous comments on blogs to combat this information.\nC. Prepare a news release that discredits the inaccurate information.\nD. Make policy changes to address complaints highlighted on these sites.",
+        "correct_ans": "D",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Which of these statements is true of the Vatican in 2010 at the time of the accusations of child abuse cover-ups?\nA. There was a coordinated media response.\nB. Consistent messages were communicated.\nC. Criticisms were taken as attacks on the Catholic Church.\nD. The credibility of the Vatican was upheld.",
+        "correct_ans": "C",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "At which stage in the planning process would a situation analysis be carried out?\nA. Defining the program\nB. Planning the program\nC. Taking action and implementing ideas\nD. Evaluation of the program",
+        "correct_ans": "A",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Earth Hour was a campaign launched by which organization?\nA. Greenpeace\nB. The UN\nC. Oxfam\nD. World Wildlife Fund",
+        "correct_ans": "D",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "What distinguishes coercive diplomacy from military force?\nA. Compellence is another term for coercive diplomacy, but covering a narrower set of criteria; compellence covers those threats aimed at initiating adversary action. A threat to coerce a state to give up part of its territory would count as coercive diplomacy, as long as that threat proactively initiates action before reactive diplomacy is taken.\nB. Coercive diplomacy constitutes the threats of limited force to induce adversary's incentive to comply with the coercer's demands. It is an influence strategy that is intended to obtain compliance: the use of force to defeat an opponent first does not count. It leaves an element of choice with the target to comply, or to continue.\nC. Military force, or the threat of military force, utilises fear to achieve strategic objectives. Coercive diplomacy is differentiated from this approach, because it does not use fear as a tool for coercing an adversary.\nD. Coercive diplomacy is employed to use force but to limit its effects on the international community. Coercive diplomacy is an aggressive strategy that is intended to obtain compliance through defeat. It does not leave an element of choice with the target, the target either being forced to comply or engage in conflict. It seeks to control by imposing compliance by removing any opportunity for negotiation or concession.",
+        "correct_ans": "B",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Which of the following is the best lens through which to investigate the role of child soldiers?\nA. Child soldiers are victims of combat that need re-education and rehabilitation.\nB. Children and their mothers are not active subjects in warfare and are best considered as subjects in the private sphere.\nC. Children are most often innocent bystanders in war and are best used as signifiers of peace.\nD. Children have political subjecthood that is missed when they are considered as passive victims of warfare.",
+        "correct_ans": "D",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "In order to become securitized, a threat must be presented in which of these ways?\nA. As an existential threat that requires immediate and extraordinary action, posing a threat to the survival of the state or to societal security.\nB. As requiring immediate and extraordinary action by the state, threatening the survival of a referent object and therefore warranting the use of measures not normally employed in the political realm.\nC. As an urgent threat to the survival of the referent object, so serious that it legitimises the employment of extraordinary action in response.\nD. As an urgent threat to the survival of the audience that requires extraordinary or emergency measures.",
+        "correct_ans": "C",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "How can we best describe the relationship between the state-centric approach and the concept of human security?\nA. There are such wide divisions within the human security framework regarding the nature of threats and referent objects that no widely applicable comparisons between state-centric approaches and human security can be drawn.\nB. By adopting the framework of human security, the limitations of the realist state-centric approach become evident. Whilst human security defines the referent object as the person or population, state-centric approaches prioritise the security of the state, de-prioritizing the pursuit of human security.\nC. The state-centric approach to security is a faction of human security, usually defined within the broad school of human security. By being state-centric this approach prioritises the individual as the referent object in security studies.\nD. Both the state-centric and human-centric approaches to security are mutually exclusive and offer a sufficient analytic framework with which to understand the international security system. It is therefore the role of security analysts to determine which of these substantial concepts is correct, and which should be discarded.",
+        "correct_ans": "B",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "What are the frameworks of analysis within which terrorism has been considered (as of 2020)?\nA. Competition between larger nations has resulted in some countries actively supporting terrorist groups to undermine the strength of rival states. Terrorist networks are extended patronage clubs maintained and paid for by their donor states and are conceptualised as being like state actors, to be dealt with using military force.\nB. Globalization has enabled the internationalization of terrorist activities by opening up their operational space, although coordination is still managed from a geographical base. This suggests that terrorist groups are nationally structured which means that terrorism cannot be considered in terms of a war to be defeated militarily without having serious implications on the indigenous population.\nC. Terrorism can be viewed as a problem to be resolved by military means (war on terrorism), by normal police techniques (terrorism as crime), or as a medical problem with underlying causes and symptoms (terrorism as disease).\nD. Terrorism is viewed as a criminal problem. The criminalization of terrorism has two important implications. Firstly, it suggests that terrorism can be eradicated - terrorists can be caught and brought to trial by normal judicial proceedings thereby removing the threat from society - and secondly, it suggests that preventative crime techniques are applicable to prevent its development.",
+        "correct_ans": "C",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Which of the following did the post-war welfare state of 1948 not aim to provide:\nA. free health care and education for all\nB. a minimum wage\nC. full employment\nD. universal welfare",
+        "correct_ans": "B",
+        "subject": "culture",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "What does Berger (1963) describe as a metaphor for social reality?\nA. a fairground ride\nB. a circus\nC. a puppet theatre\nD. a ballet",
+        "correct_ans": "C",
+        "subject": "culture",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "The shift from 'civil religion' to 'common religion' means that:\nA. the increasing bureaucracy of the state has made religion only a marginal part of our lives\nB. despite the weakening of traditional authority, our everyday lives and 'common sense' remain shaped by religious beliefs and values\nC. religious participation in collective worship may have declined, but people still practise their faiths in private\nD. people are much more likely to discuss their religious beliefs in public, informal settings",
+        "correct_ans": "B",
+        "subject": "culture",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "The term 'hegemony' refers to:\nA. the tendency for the working class not to realize their own interests\nB. a dominant ideology that legitimates economic, political and cultural power\nC. a form of dual consciousness based on ideology and everyday experiences\nD. a mode of payment given for outstanding topiary",
+        "correct_ans": "B",
+        "subject": "culture",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Which of the following is not a problem associated with official statistics on strike action?\nA. most strikes go unnoticed by employers and the mass media\nB. not all industrial disputes will be reported by the employer\nC. the definition of strikes excludes those that involve fewer than ten workers or last less than one day\nD. it is hard to compare strikes that were measured in different ways",
+        "correct_ans": "A",
+        "subject": "culture",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "How did the 2008 financial crisis affect America's international reputation?\nA. It damaged support for the US model of political economy and capitalism\nB. It created anger at the United States for exaggerating the crisis\nC. It increased support for American global leadership under President Obama\nD. It reduced global use of the US dollar",
+        "correct_ans": "A",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "How did NSC-68 change U.S. strategy?\nA. It globalized containment.\nB. It militarized containment.\nC. It called for the development of the hydrogen bomb.\nD. All of the above",
+        "correct_ans": "D",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "How do Defensive Realism and Offensive Realism differ in their explanation of state behaviour?\nA. Defensive realists place greater emphasis on the role of international institutions\nB. Defensive realists place less emphasis on geographical factors\nC. Offensive realists give more priority to the national interest than Defensive realists.\nD. Defensive realists believe states are security maximizers, while Offensive realists believe states to be power maximizers",
+        "correct_ans": "D",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "How did Donald Trump attack globalization in the 2016 campaign?\nA. Globalization had made men like him too rich\nB. Globalization only benefited certain American states, such as New York\nC. Liberal elites had encouraged globalization, while 'ordinary Americans' lost jobs because of it\nD. Globalization encouraged damaging trade wars",
+        "correct_ans": "C",
+        "subject": "politics",
+        "category": "social sciences",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Why are parvoviruses a highly impactful parasite?\nA. Because they have no nucleic acid\nB. They require a helper virus\nC. Only replicate in dividing cells\nD. Can integrate into host chromosomes",
+        "correct_ans": "A",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "Which of the following is a morphological characteristic of the paramyxoviruses.\nA. Fragile viruses often visualised with RNA spewing from the inside\nB. Elongate viruses\nC. Icosahedral viruses with envelope\nD. Very large viruses",
+        "correct_ans": "A",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "A key factor facilitating the application of nested case-control studies from the MACS was:\nA. Data collection\nB. Establishment of a repository of biologic specimens\nC. Participant interest\nD. Administration of the questionnaire by staff",
+        "correct_ans": "B",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "The median survival time to AIDS and death was established by following:\nA. Seroprevalent HIV-infected individuals\nB. Seronegatives\nC. Seroconverters\nD. High-risk seronegatives",
+        "correct_ans": "C",
+        "subject": "health",
+        "category": "other (business, health, misc.)",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": " What is the sign of the covenant for Jewish males?\nA. The rainbow\nB. Circumcision\nC. A son\nD. Bar mitzvah",
+        "correct_ans": "B",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "What is the Second Gem in Buddhism?\nA. The Dharma\nB. The Sangha\nC. The Buddha\nD. The Bodhisattva",
+        "correct_ans": "A",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": " In which dynasty was the \"Mandate of Heaven\" developed to legitimatize the new rulers?\nA. Shang\nB. Zhou\nC. Han\nD. Xia",
+        "correct_ans": "B",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": " Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?\nA. Honen\nB. Tanaka\nC. Tokugawa\nD. Meiji",
+        "correct_ans": "D",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    },
+    {
+        "prompt": "How can the Upanishads be characterized?\nA. Ritual texts\nB. Philosophical texts\nC. Hymns\nD. Origin stories",
+        "correct_ans": "B",
+        "subject": "philosophy",
+        "category": "humanities",
+        "difficulty": "hard"
+    }
+]
