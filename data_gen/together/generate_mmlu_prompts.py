@@ -172,5 +172,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-#python generate_mmlu_prompts.py --data_path /path/to/mmlu/data --dev
+#python generate_mmlu_prompts.py --data_path /Users/kushalthaman/multiple-teacher-generalization/data_gen/together/data --dev
 
