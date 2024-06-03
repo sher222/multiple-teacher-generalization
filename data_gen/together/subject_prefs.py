@@ -47,7 +47,7 @@ class TogetherModel:
             except together.error.RateLimitError:
                 time.sleep(2)
             except together.error.InvalidRequestError:
-                prompt = " ".join(prompt.split(" ")[:2500])  # Adjust prompt length if needed
+                prompt = " ".join(prompt.split(" ")[:2500])  
             except Exception as e:
                 print(f"Unexpected error: {e}")
                 return None
@@ -57,8 +57,9 @@ class TogetherModel:
                  for i, (model, prompt) in enumerate([(model, prompt) for model in self.models for prompt in prompts])]
 
         rows = []
-        with Pool(processes=len(self.api_keys) * 2) as pool:
-            for result in tqdm(pool.imap(self.thread_call, tasks), total=len(tasks)):
+        num_processes = min(len(self.api_keys) * 2, len(tasks))   
+        with Pool(processes=num_processes) as pool:
+            for result in tqdm(pool.imap_unordered(self.thread_call, tasks), total=len(tasks)):
                 if result:
                     rows.append(result)
         return rows
@@ -229,7 +230,13 @@ def main():
     parser.add_argument("--dev", action="store_true", help="if using the dev set")
     args = parser.parse_args()
 
-    api_keys = ['a', 'b', 'c', 'd']  # Replace with your actual API keys
+    api_keys = [ #02 - 06
+        '303e07102419a98aae9be912b8e612cf16c0a54babfde4927bf4e86e9a4b76d6',
+        '96b81f69214836f2d22785fbcff82e8b48c78797c7683c34242a70739bdb378b',
+        'cd073033f34fdfe978e4ef77f47b5ad7d0508fde15dd9b02802c4c7fca4eb126',
+        '13649da461df6431e6505013783d8b8e724311ad1996c6b1a9aba890c3095cc4',
+        'b8a9a5e93fcaf5d49a5579fde6e9708bee173848a5fa884af50129daff2543b8'
+    ]
     models = ["mistralai/Mixtral-8x22B-Instruct-v0.1"]
 
     if not os.path.exists(args.data_path):
@@ -253,5 +260,9 @@ if __name__ == "__main__":
 
 
 
-#python generate_mmlu_prompts.py --data_path /Users/kushalthaman/multiple-teacher-generalization/data_gen/together/data --dev
 
+#python generate_mmlu_prompts.py --data_path /Users/kushalthaman/multiple-teacher-generalization/data_gen/together/data
+
+            # Use imap or imap_unordered for non-blocking pool map operation
+            # Wrap the pool.imap or pool.imap_unordered call with tqdm for progress bar
+            # Note: Adjust `total` parameter as per your tasks length if necessary
