@@ -25,6 +25,7 @@ class TogetherModel:
     def thread_call(self, args):
         model, prompt, api_key, temp, top_k, top_p = args
         client = Together(api_key=api_key)
+        print("thread with api_key", api_key)
         while True:
             try:
                 response = client.chat.completions.create(
@@ -47,7 +48,7 @@ class TogetherModel:
                     'top_p': top_p
                 }
             except together.error.RateLimitError:
-                print("rate limit exceeded, retrying after a short pause...")
+                print("api", api_key, "rate limit exceeded, retrying after a short pause...")
                 time.sleep(2)
             except together.error.InvalidRequestError:
                 prompt = " ".join(prompt.split(" ")[:2500])
@@ -249,8 +250,9 @@ def main():
         '96b81f69214836f2d22785fbcff82e8b48c78797c7683c34242a70739bdb378b',
         'cd073033f34fdfe978e4ef77f47b5ad7d0508fde15dd9b02802c4c7fca4eb126',
         '13649da461df6431e6505013783d8b8e724311ad1996c6b1a9aba890c3095cc4',
-        'b8a9a5e93fcaf5d49a5579fde6e9708bee173848a5fa884af50129daff2543b8'
+        'f1be5bacda4936866f3961cbdbd74bd70a799ea7d9c3ecbfec6a3cc831fe6f64'
     ]
+
     preferred_model = "meta-llama/Llama-3-70b-chat-hf"
     dispreferred_model = "Qwen/Qwen1.5-1.8B-Chat"
 
